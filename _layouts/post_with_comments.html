@@ -1,0 +1,28 @@
+---
+layout: post
+---
+
+{{ content }}
+
+
+{% assign comments = page.comments %} 
+{% assign sorted_comments = comments | sort: 'date' %}
+{% if comments %}
+<section class="comments">
+  <h3>Comments</h3>
+{% for comment in sorted_comments %}
+<div class="comment">
+  <h4>{{comment.author}}</h4>
+  <time
+    class="post-meta dt-published"
+    datetime="{{ page.date | date_to_xmlschema }}"
+    itemprop="datePublished"
+  >
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {{ comment.date | date:"%H:%M - %b %-d, %Y, %Y" }}
+  </time>
+  <p>{{comment.content }}</p>
+</div>
+{% endfor %}
+</section>
+{% endif %}

@@ -1,0 +1,99 @@
+---
+layout: post_with_comments
+status: publish
+published: true
+title: Deskilling and The Cul-de-Sac of Near Perfect Automation
+author: Ashwin Parameswaran
+date: '2013-05-09 17:35:20 +0100'
+date_gmt: '2013-05-09 16:35:20 +0100'
+categories:
+- Artificial Intelligence
+- Resilience
+tags: []
+comments:
+- id: 1254
+  author: Steve Waldman
+  author_url: http://www.interfluidity.com/
+  date: '2013-05-09 18:05:11 +0100'
+  date_gmt: '2013-05-09 17:05:11 +0100'
+  content: |-
+    This, along with your previous pieces, highlight an important flaw with naive applications of automation. But I wonder, could scale be a remedy? That is, implicitly the model is like a pilot flying along with an autopilot that functions 99% of the time.
+
+    But what if there is a ratio of 50 drone-planes per pilot, so that operator overrides are high-frequency occurrences. Does this mitigate the problem?
+
+    Then this becomes a critique of worksharing: to prevent skills atrophy, automation-augmented labor must be concentrated among relatively few intensely engaged workers rather than shared, a few hours here and there spread among many.
+- id: 1255
+  author: Ashwin
+  author_url: ''
+  date: '2013-05-09 19:57:39 +0100'
+  date_gmt: '2013-05-09 18:57:39 +0100'
+  content: "Steve - the phenomenon you describe is actually happening in drone warfare
+    where the number of drones under a human monitor is called 'fan-out' and is forecast
+    to steadily increase over time. Try pg 76 of the book 'Robot Futures' http://books.google.co.uk/books?id=rinFfdNb0wQC&lpg=PP1&pg=PA76#v=onepage&q&f=false
+    . \n\nOn whether it helps, I guess it depends upon the domain. In drones for example,
+    if the human actually \"monitors\" then there's probably a limit to how many drones
+    he can monitor at one time. But if the human is \"on call\" where he only reacts
+    to a distress signal sent by the drone, then a large enough number probably does
+    help in providing enough experience."
+- id: 1256
+  author: Arijit Banik
+  author_url: http://www.correlationmatrix.ca
+  date: '2013-05-10 22:40:26 +0100'
+  date_gmt: '2013-05-10 21:40:26 +0100'
+  content: 'I admit I am not adding much to the conversation particularly in light
+    of the engagement you had in your previous essays. In terms of how this has been
+    considered in the past I immediately thought of David Noble''s "Forces of Production.
+    A Social History of Industrial Automation" (1984) but a more appropriate foreboding
+    of what is to come was framed by Norbert Wiener in his "Cybernetics: Or Control
+    and Communication in the Animal and the Machine)" (1948). In the matter-of-fact
+    language of the time -- probably de rigeur for someone of Wiener''s prodigious
+    talents-- there is this gem that may have been alluded to in your essay “The Control
+    Revolution And Its Discontents”: the modern industrial revolution is [. . . ]
+    bound to devalue the human brain at least in its simpler and more routine decisions.
+    Of course, just as the skilled carpenter, the skilled mechanic, the skilled dressmaker
+    have in some degree survived the first industrial revolution, so the skilled scientist
+    and the skilled administrator may survive the second. However, taking the second
+    revolution as accomplished, the average human of mediocre attainments or less
+    has nothing to sell that it is worth anyone’s money to buy."'
+- id: 1257
+  author: Ashwin
+  author_url: ''
+  date: '2013-05-11 10:51:50 +0100'
+  date_gmt: '2013-05-11 09:51:50 +0100'
+  content: "Arijit - Thanks for the comment. Wiener's observation is spot on. One
+    problem is that our educational system is not really geared to produce the needed
+    expertise. \n\nI touch upon this topic in this old post https://www.macroresilience.com/2011/03/15/advances-in-technology-and-artificial-intelligence-implications-for-education-and-employment/
+    as well as these two sections of a broader essay \nhttp://alittledisorder.com/resilience-across-domains/economics/technological-unemployment-amidst-stagnation/#The_Future_Of_Human_Employment_The_Near-Automated_Economy
+    http://alittledisorder.com/resilience-across-domains/economics/technological-unemployment-amidst-stagnation/#Education_For_The_Near-Automated_Economy"
+- id: 1258
+  author: Lessons from Asiana for PTC? &laquo; Rail Smart
+  author_url: http://railsmart.org/2014/06/25/lessons-from-asiana-for-ptc/
+  date: '2014-06-25 23:58:42 +0100'
+  date_gmt: '2014-06-25 22:58:42 +0100'
+  content: "[...] machines they are operating, just as pilots are losing their intuitive
+    ability to fly planes.  There&#8217;s a recent and eloquent explanation of this
+    phenomenon on the blog Macroresilience which is well worth a [...]"
+---
+<p>One of the core ideas in my essay <a href="/2011/12/29/people-make-poor-monitors-for-computers/">&#8216;People Make Poor Monitors For Computers&#8217;</a> was the deskilling of human operators whose sole responsibility is to monitor automated systems. The ability of the automated system to deal with most scenarios on ‘auto-pilot’ results in a deskilled human operator whose skill level never rises above that of a novice and who is ill-equipped to cope with the rare but inevitable instances when the system fails. As James Reason notes<a href="#fn:reason" id="fnref:reason" title="see footnote" class="footnote">1</a> (emphasis mine) : </p>
+<blockquote>
+<p>Manual control is a highly skilled activity, and skills need to be practised continuously in order to maintain them. Yet an automatic control system that fails only rarely denies operators the opportunity for practising these basic control skills. One of the consequences of automation, therefore, is that operators become de-skilled in precisely those activities that justify their marginalised existence. But when manual takeover is necessary something has usually gone wrong; this means that operators need to be more rather than less skilled in order to cope with these atypical conditions. Duncan (1987, p. 266) makes the same point: <strong>“The more reliable the plant, the less opportunity there will be for the operator to practise direct intervention</strong>, and the more difficult will be the demands of the remaining tasks requiring operator intervention.”</p>
+</blockquote>
+<p>&#8216;Humans monitoring near-autonomous systems&#8217; is not just one way to make a system more automated. It is in fact the most common strategy to increase automation within complex domains. For example, drone warfare largely consists of providing robots with increasing autonomy such that &#8220;the human operator is only responsible for the most strategic decisions, with robots making every tactical choice&#8221;<a href="#fn:robotfutures" id="fnref:robotfutures" title="see footnote" class="footnote">2</a>. </p>
+<p>But if this model of automation deskills the human operator, then why does anyone choose it in the first place? The answer is that the deskilling and the fragility that comes with it is not an instantaneous phenomenon. The first-generation automated system piggy backs upon the existing expertise of the human operators who have become experts by operating within a less-automated domain. In fact expert human operators are often the most eager to automate away parts of their role and are most comfortable with a monitoring role. The experience of having learnt on less automated systems gives them adequate domain expertise to manage only the strategic decisions and edge cases.</p>
+<p><strong>The fragility arises when the second-generation human operators who have no experience of ever having practised routine tactical activities and interventions have to take over the monitoring role.</strong> This problem can be mitigated by retaining the less-automated domain as a learning tool to train new human operators. But in many domains, there is no substitute for the real thing and most of the learning happens &#8216;on the job&#8217;. Certainly this is true of financial markets or trading and it is almost certainly true for combat/war. Derivative traders who have spent most of their careers hacking away at simple tool-like models can usually sense when their complex pricing/trading system is malfunctioning. But what about the novice trader who has spent his entire career working with a complex, illegible system?</p>
+<p>In some domains like finance and airplane automation, this problem is already visible. But there are many other domains in which we can expect the same pattern to arise in the future. An experienced driver today is probably competent enough to monitor a self-driving car but what about a driver twenty years from today who will likely not have spent any meaningful amount of time driving a manual car? An experienced teacher today is probably good enough to extract good results from a classroom where so much of the process of instruction and evaluation are automated but what about the next generation of teachers? An experienced soldier or pilot with years of real combat experience is probably competent enough to manage a fleet of drones but what about the next generation of combat soldiers whose only experience of warfare is through a computer screen?</p>
+<p><strong>Near-autonomous systems are perfect for &#8216;machine learning&#8217; but almost useless for &#8216;human learning&#8217;.</strong> The system generates increasing amounts of data to improve the performance of the automated component within the system. But the system cannot provide the practise and experience that are required to enable human expertise. </p>
+<p>Automation is often seen as a way to avoid &#8216;irrational&#8217; or sloppy human errors. By deskilling the human operator, this justification becomes a self-fulfilling prophecy. By making it harder for the human operator to achieve expertise, the proportion of apparently irrational errors increases. Failures are inevitably taken as evidence of human failure upon which the system is made even more automated thus further exacerbating the problem of deskilling.</p>
+<p>The delayed deskilling of the human operators also means that the transition to a near-automated system is almost impossible to reverse. By definition, simply reverting back to the old less-automated, tool-like system actually makes things worse as the second-generation human operators have no experience with using these tools. Compared to carving out an increased role for the now-deskilled human operator, more automation always looks like the best option. If we eventually get to the dream of perfectly autonomous robotic systems, then the deskilling may be just a temporary blip. But what if we never get to the perfectly autonomous robotic system?</p>
+<p>Note: Apart from <a href="/2011/12/29/people-make-poor-monitors-for-computers/">&#8216;People Make Poor Monitors For Computers&#8217;</a>, <a href="/2012/02/21/the-control-revolution-and-its-discontents-the-uncanny-valley/">&#8216;The Control Revolution And Its Discontents&#8217;</a> also touches upon similar topics but within the broader context of how this move to near-perfectly algorithmic systems fits into the <a href="http://www.amazon.com/gp/product/0674169867/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0674169867">&#8216;Control Revolution&#8217;</a>. </p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:reason">
+<p><a href="http://www.amazon.com/gp/product/0521314194/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0521314194">&#8216;Human Error&#8217;</a> by James Reason (1990), pg 180.<a href="#fnref:reason" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+<li id="fn:robotfutures">
+<p> <a href="http://www.amazon.co.uk/gp/product/0262018624/ref=as_li_ss_tl?ie=UTF8&amp;camp=1634&amp;creative=19450&amp;creativeASIN=0262018624&amp;linkCode=as2&amp;tag=httpwwwmacror-21">&#8216;Robot Futures&#8217;</a> by Illah Reza Nourbakhsh (2013), pg 76.<a href="#fnref:robotfutures" title="return to article" class="reversefootnote">&#160;&#8617;</a></p>
+</li>
+</ol>
+</div>

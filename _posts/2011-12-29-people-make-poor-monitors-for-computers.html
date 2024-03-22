@@ -1,0 +1,804 @@
+---
+layout: post_with_comments
+status: publish
+published: true
+title: People Make Poor Monitors for Computers
+author: Ashwin Parameswaran
+date: '2011-12-29 23:58:32 +0000'
+date_gmt: '2011-12-29 23:58:32 +0000'
+categories:
+- Artificial Intelligence
+- Resilience
+tags: []
+comments:
+- id: 850
+  author: Bryan Willman
+  author_url: ''
+  date: '2011-12-30 03:23:05 +0000'
+  date_gmt: '2011-12-30 03:23:05 +0000'
+  content: |-
+    There is a related issue which we might call "delayed escalation."
+
+    Not only is the "small errors are hidden" problem an issue - but the delays in response while lower layers fail to attend to the issue magnify any problem.
+
+    Worker (or system) 1 cannot deal with some issue, so they raise it to Worker/Manager/System 2.  Some time passes.  Repeat.  Repeat again.  Some time later, what started as not too big an issue, has been festering for a "long time" and explodes onto the attention of management as a full blown crises with very pressing time issues.
+
+    (This might be days in a software project or seconds in an airplane.)
+
+    Saying "report all minor issues to top level management" doesn't work since doing so will utterly overwhelm "top management".   (Be that trader, pilot, risk officer, project manager.)
+- id: 851
+  author: Ashwin
+  author_url: ''
+  date: '2011-12-30 12:00:37 +0000'
+  date_gmt: '2011-12-30 12:00:37 +0000'
+  content: Bryan - Thanks. That's interesting and very pertinent. In my experience,
+    it's always tempting to structure the system such that novices/new employees have
+    lots of slack. But in the long run, it is much better for them and for senior
+    managers if all errors are immediately and starkly visible to all.
+- id: 852
+  author: Bryan Willman
+  author_url: ''
+  date: '2011-12-30 15:34:42 +0000'
+  date_gmt: '2011-12-30 15:34:42 +0000'
+  content: "Ashwin - you write \"But in the long run, it is much better for them and
+    for senior managers if all errors are immediately and starkly visible to all\"\n\nProbably
+    not.\n\nMany systems see/make and automatically manage huge numbers of errors,
+    sometimes many per second.  (The hard disk in your laptop, for example.)  Indeed,
+    your own post cites having a pilot hold down the \"shut up\" button so other pilots
+    could manage the emergency.\n\nSo we are faced with the very very hard problem
+    of what summaries of things to report to management, how to recognize real issues
+    and escalate them in a timely fashion, without flooding managing people with noise.
+    \  \n\n[I think you might argue that a better definition of \"error\" could overcome
+    this problem, I'm not so sure.]"
+- id: 853
+  author: Ashwin
+  author_url: ''
+  date: '2011-12-30 19:38:10 +0000'
+  date_gmt: '2011-12-30 19:38:10 +0000'
+  content: "Bryan - fair enough. My thumb rule is that non-critical errors should
+    not be protected by redundancy. Otherwise there are no \"teachable moments\" except
+    for the catastrophic event. On the case of the pilot blanking out all the error
+    messages, I'd probably argue that the system was set up in a manner that if anything
+    went wrong, then everything went wrong. \n\nHaving said that, I tend to agree
+    with you that there are no \"correct\" solutions here. My concern is more that
+    we tend to incorrectly assume that more automation is an automatic ticket to better
+    performance."
+- id: 854
+  author: LiminalHack
+  author_url: http://www.liminalhack.wordpress.com
+  date: '2011-12-30 23:04:25 +0000'
+  date_gmt: '2011-12-30 23:04:25 +0000'
+  content: "Very interesting post. Its always **far** more interesting when this type
+    of analysis is applied beyond finance.\n\nI have two comments to make.\n\n1) The
+    control of a psychologically closed system (like an aeroplane in difficulties
+    with one pilot and a computer or a thousand) is not a good analogy for the financial
+    system hich is ultimately controlled not by machine but by the decisions of a
+    very large number of humans. The 'weather' here is made by human interaction and
+    is thus endogenous to the system. A pilot dealing with an emergency faces an endogenous
+    threat.\n\n2) Much os what you seem to be getting at appears to be the basic narrative
+    of various sociological analysts who point to a recurring civilisation-al theme
+    of decreasing marginal productivity of social and technological complexity. Toynbee,
+    Sorokin, Spengler and Wallace among others have made this point ad-infinitum.\n\nThis
+    applies equally to finance, flight, politics, hierarchical specialisation and
+    so on. \n\nFinance is the last abstraction. If finance is sickened, then there
+    must be more base problems in the hierarchy of human job role specialisms that
+    are causing that."
+- id: 855
+  author: LiminalHack
+  author_url: http://www.liminalhack.wordpress.com
+  date: '2011-12-30 23:05:22 +0000'
+  date_gmt: '2011-12-30 23:05:22 +0000'
+  content: |-
+    I meant:
+
+    "A pilot dealing with an emergency faces an exogenous threat."
+- id: 856
+  author: Ashwin
+  author_url: ''
+  date: '2011-12-31 00:26:34 +0000'
+  date_gmt: '2011-12-31 00:26:34 +0000'
+  content: "LH - I don't really see how the disturbance being exogenous/endogenous
+    changes the dynamic that I'm looking at which is the inability of the human operator
+    to manage the impact of the disturbance when he is operating in a near-fully automated
+    system. \n\nThe analogy to the increasing complexity arguments is a fair one -
+    the only one I have read is Tainter's 'Collapse of Complex Societies'. What I
+    reckon is different is that the current cycle of near-total algorithmisation is
+    technological complexity taken to its logical extreme."
+- id: 857
+  author: 'Saturday links: relentless stupidity | Abnormal Returns'
+  author_url: http://abnormalreturns.com/saturday-links-relentless-stupidity/
+  date: '2011-12-31 12:12:13 +0000'
+  date_gmt: '2011-12-31 12:12:13 +0000'
+  content: "[...] On the parallels between automation in airplanes and financial markets. 
+    (Macroeconomic Resilience) [...]"
+- id: 858
+  author: Walter
+  author_url: ''
+  date: '2012-01-03 19:52:32 +0000'
+  date_gmt: '2012-01-03 19:52:32 +0000'
+  content: "Reading your article, and especially the parts about managing airplane
+    systems in crisis, it struck me that the real issue here is not that human pilots
+    are bad crisis managers, but that human pilots are not trained to be crisis managers.
+    \n\nIf the plane essentially flies itself then you don't need pilots who have
+    1000s of hours training in flying aircraft. You need pilots who have 1000s of
+    hours training in flying aircraft in crisis. What you describe sounds less like
+    the inability of humans to manage complex systems in crisis, and more like the
+    inability of essentially untrained humans to manage a complex system in a crisis."
+- id: 859
+  author: Ashwin
+  author_url: ''
+  date: '2012-01-03 21:38:17 +0000'
+  date_gmt: '2012-01-03 21:38:17 +0000'
+  content: "Walter - the problem is that there is no way in which human managers can
+    get say a thousand hours of experience in crisis management. The automated system
+    is reliable most of the time and the crisis is by definition a rare event. \n\nYou
+    could argue that we need to simulate crises so that the human managers can acquire
+    such experience. But this assumes that we can imagine each possible way in which
+    the system can fail. In reality, every crisis is different. We can train for how
+    the system failed the last time but almost never for how it will fail in the future."
+- id: 860
+  author: LiminalHack
+  author_url: http://www.liminalhack.wordpress.com
+  date: '2012-01-03 23:36:45 +0000'
+  date_gmt: '2012-01-03 23:36:45 +0000'
+  content: |-
+    "You could argue that we need to simulate crises so that the human managers can acquire such experience. But this assumes that we can imagine each possible way in which the system can fail."
+
+    That is exactly why I make the exogenous/endogenous crisis distinction. While there are many ways an aircraft could find itself in crisis the number of basic scenarios is limited. These scenarios can be constructed and used to train pilots.
+
+    Finance, being purely an emergent phenomonon of many human minds has an infinite number of scenarios, because the response to such a crisis feeds back to a response hich is not predictable or amenable to modelling.
+
+    In contrast, a response to a flight crisis can be modelled, since the response is either right or wrong.
+
+    There is no 'right' response to a financial crisis. The judgement of right or wrong in a financial crisis is necessarily subjective, whereas there exists a perfect response to a given stall scenario, even if it is practically unknowable to the pilot due to the complexity of flight dynamics.
+- id: 861
+  author: Ashwin
+  author_url: ''
+  date: '2012-01-04 00:58:39 +0000'
+  date_gmt: '2012-01-04 00:58:39 +0000'
+  content: "\"While there are many ways an aircraft could find itself in crisis the
+    number of basic scenarios is limited.\" \nI cannot agree with that assertion.
+    The interaction between a complex environment and a complex automated system can
+    produce any number of scenarios that are essentially unknowable in advance, a
+    point that Jeff Wise also makes in the Popular Mechanics article."
+- id: 862
+  author: LiminalHack
+  author_url: http://www.liminalhack.wordpress.com
+  date: '2012-01-04 12:40:49 +0000'
+  date_gmt: '2012-01-04 12:40:49 +0000'
+  content: |-
+    Yes, I said that the perfect response to a given stall is unknowable, but is theoretically computable. What I am saying is that in *general*, when one has a stall one should yank back on the stick and hit the gas.
+
+    Now complete this sentence:
+
+    in *general*, when one has a financial crisis one should...
+
+
+    Thats the difference between aerodynamics and finance, one is chaotic but computable (like all chaotic systems), but finance is not computable.
+
+    Here computable equates to knowable, in a strict mathematical sense.
+- id: 863
+  author: ephemeral_reality
+  author_url: ''
+  date: '2012-01-04 21:23:26 +0000'
+  date_gmt: '2012-01-04 21:23:26 +0000'
+  content: |-
+    /* Yes, I said that the perfect response to a given stall is unknowable, but is theoretically computable */
+
+    That statement seems like an oxymoron to me, how can something be theoretically computable but unknowable?
+
+    /* What I am saying is that in *general*, when one has a stall one should yank back on the stick and hit the gas.*/
+
+    For an approaching stall, you do that. What about when you are fully stalled and there's inclement weather? You can vary these weather conditions arbitrarily also, so you can say something in *general*, doesn't mean that is applicable in the given situation.
+- id: 864
+  author: Is Automation a Severity/Frequency Tradeoff for Risk? &laquo; Physics, Philosophy,
+    Phrases
+  author_url: http://littledreck.wordpress.com/2012/01/10/is-automation-a-severityfrequency-tradeoff-for-risk/
+  date: '2012-01-10 17:04:45 +0000'
+  date_gmt: '2012-01-10 17:04:45 +0000'
+  content: "[...] People make poor monitors for computers. [...]"
+- id: 865
+  author: JW Mason
+  author_url: http://slackwire.blogspot.com/
+  date: '2012-02-05 03:19:07 +0000'
+  date_gmt: '2012-02-05 03:19:07 +0000'
+  content: |-
+    Wow, what a great post!
+
+    The logical conclusion is that if a system cannot be 100% automated, then it may be best to deliberately automate less than is technically possible. If human operators are required to routinely solve less than critical problems, they will be better equipped to solve the very rare critical problems. I kept expecting you to spell this out, but you never did.
+- id: 866
+  author: Ashwin
+  author_url: ''
+  date: '2012-02-05 10:17:44 +0000'
+  date_gmt: '2012-02-05 10:17:44 +0000'
+  content: JW - Thanks! Your conclusion is spot on. Entirely my fault for not spelling
+    it out - the reason being that I extracted this post out of a much longer essay
+    which is not yet complete. I have a couple of half-written followups to this post
+    which I will hopefully get to soon which bring the theme to a more satisfactory
+    conclusion.
+- id: 867
+  author: 'The Control Revolution And Its Discontents: The Uncanny Valley at Macroeconomic
+    Resilience'
+  author_url: https://www.macroresilience.com/2012/02/21/the-control-revolution-and-its-discontents-the-uncanny-valley/
+  date: '2012-02-21 17:38:42 +0000'
+  date_gmt: '2012-02-21 17:38:42 +0000'
+  content: "[...] A similar valley exists in the path of increased automation and
+    algorithmisation. Much of the discussion in this section of the post builds upon
+    concepts I explored via a detailed case study in a previous post titled ‘People
+    Make Poor Monitors for Computers’. [...]"
+- id: 868
+  author: Our monitoring systems are making us stoopid &laquo; Nodeable Blog
+  author_url: http://blog.nodeable.com/2012/03/19/our-monitoring-systems-are-making-us-stoopid/
+  date: '2012-03-19 22:34:35 +0000'
+  date_gmt: '2012-03-19 22:34:35 +0000'
+  content: "[...] Skynet may not be taking over the earth, but in many ways we seem
+    to be determined to abandon human insight as we give all real responsibilities
+    to our monitoring systems.  It&#8217;s a natural tendency to want to reduce busywork
+    and offload it to a machine, but our machines, and not just Google, may be making
+    us stoopid.  Or so suggests Ashwin Parameswaran on his Macroeconomic Resilience
+    blog. [...]"
+- id: 869
+  author: Adrian Walker
+  author_url: http://www.reengineeringllc.com
+  date: '2012-04-01 02:06:46 +0100'
+  date_gmt: '2012-04-01 01:06:46 +0100'
+  content: |-
+    Financial modelling may be more controllable by average or novice traders if the models are written in Executable English.
+
+    There's emerging technology on the web that supports this, and that also provides step-by-step English explanations of results.
+
+    It's live on the web at www.reengineeringllc.com. Shared use is free, and there are no advertisements.
+
+    Here's an example written in Executable English --
+    www.reengineeringllc.com/demo_agents/BlackScholes1.agent
+- id: 870
+  author: R Pointer
+  author_url: ''
+  date: '2012-04-01 09:56:05 +0100'
+  date_gmt: '2012-04-01 08:56:05 +0100'
+  content: Kurtosis. Punctuated Equilibrium. This is what this creates. It happens
+    in almost all human domains.
+- id: 871
+  author: Ashwin
+  author_url: ''
+  date: '2012-04-01 22:18:43 +0100'
+  date_gmt: '2012-04-01 21:18:43 +0100'
+  content: Adrian - my point isn't that the code or math is literally not understandable
+    by novices. It is that the behaviour of complex automated systems is illegible
+    to most humans - I may understand every line of each module of a large model or
+    software and I may still have very little understanding of what the emergent dynamics
+    of the system as a whole will be.
+- id: 872
+  author: Adrian Walker
+  author_url: http://www.reengineeringllc.com
+  date: '2012-04-02 16:14:40 +0100'
+  date_gmt: '2012-04-02 15:14:40 +0100'
+  content: "Hi Ashwin -  your point is well taken if the system is written in Java
+    or such.  Not for nothing is this called \"code\".\n\nHowever, if the system is
+    in English that happens to be executable -- see eg [1,2] -- then it can explain
+    its actions, step-by-step in hypertexted English.  Using the hypertext links,
+    one can selectively drill down in the explanation from an overview into as much
+    detail as needed -- all the way to supporting data entries.\n\nSo, a user can
+    get an understanding of what the programmer-authors wrote.\n\n[1] http://www.reengineeringllc.com/demo_agents/BlackScholes1.agent\n\n[2]
+    Internet Business Logic\nA Wiki and SOA Endpoint for Executable Open Vocabulary
+    English Q/A over SQL and RDF\nOnline at www.reengineeringllc.com    \nShared use
+    is free, and there are no advertisements"
+- id: 873
+  author: Brian Balke
+  author_url: ''
+  date: '2012-04-02 16:57:33 +0100'
+  date_gmt: '2012-04-02 15:57:33 +0100'
+  content: |-
+    I know that military planners put on "war games" and simulations exactly for the purpose of orienting users to the experience of technology. I wonder whether it shouldn't be incumbent upon the developers of other critical technologies to regularly expose operators to simulations of system failures. (As opposed to war-games, which involve the machines as well.)
+
+    As in war games, the failure scenarios would be bounded by some measure of plausibility, but otherwise be left to the imagination of the designers. Given the proliferation of haptic interfaces (even if only Wii nunchucks), it would seem that bored operators should be able to usefully "entertain" themselves by practicing emergency response against a detailed simulation of the system - after all, such simulations are a critical part of system design before use.
+
+    I don't know to what degree the Treasury Department's "stress test" of the banking system qualifies in this regard, but it might be a useful role for government oversight.
+
+    Development of frameworks that would allow dual use of control software (transport directly from simulation to control) would be an important area of research. I know that this goal was part of what motivated Microsoft in creating Robotics Studio, but I believe that the framework is perhaps to heavy to support real-time response.
+- id: 874
+  author: Les
+  author_url: ''
+  date: '2012-04-02 18:41:38 +0100'
+  date_gmt: '2012-04-02 17:41:38 +0100'
+  content: "Computers are not capable of crises management at all.  Computers are
+    logic engines, and only those things that can be represented by logic can be handled.
+    \ For that logic to exist prior to the event to be handled, it must be thought
+    about by the system designer.  If the designer didn't think of it, it cannot be
+    designed in.  \n\nNor can simulations cover the crises, which is acknowledged
+    by the fact that the author states that \"training for all crises is not possible\".
+    \n\nTherefore only a pilot with sufficient training can perform the various tasks
+    to overcome a crises, because he is capable of original thought, which still eludes
+    the best programs and programmers.  There are various problems that do not yield
+    to computer science (at least I guess I should say \"yet\".)  \n\nSimulations
+    are based on some number of inputs.  Those inputs are often selected by the programmer(s)
+    and managers to best represent the problem as understood by the experts available
+    to them.  But if they ignore some experts who they disagree with (such as climatologists
+    who doubt manmade global warming), then the simulation suffers from insufficient
+    input and lacks sufficient regulation.  The example of the accelerometers is  a
+    case in point here.\n\nThe human mind, and human responses are slower than a machine,
+    but their ability to follow multiple stimuli, integrate the inputs and arrive
+    at satisfactory actions with insufficient information is what makes them superior
+    in crises situations.  Ignore that at extreme cost.  \n\nAs to why automation
+    weakens the human link, I don't think that is the case.  Instead, the pilot took
+    the action he had been trained to do, but the computer again had an error which
+    produced the problem input, and got a \"programmed response\" from the insufficiently
+    trained pilot.\n\nHowever the greater error is the tendency to believe that the
+    computer removed the exerience required to be in charge of an aircraft full of
+    people.  To me the companies involved, the airline, airbus and whoever else enabled
+    that whole situation to evolve are at fault.  \n\nI quit flying years ago because
+    I saw the shortcuts the airline industry was taking.  If you fly you are spinning
+    a rigged roulette wheel.  Good luck."
+- id: 875
+  author: K Smith
+  author_url: ''
+  date: '2012-04-02 20:33:41 +0100'
+  date_gmt: '2012-04-02 19:33:41 +0100'
+  content: "We are being very naive if we think Treasury Department stress tests are
+    designed to evaluate the health of the banking system. Each one of our banks is
+    a zombie bank. The only question is the degree of zombification. \n\nOur financial
+    system is based on the trust and confidence we have in it. When trust and confidence
+    are low people behave in ways that contribute to its disintegration. When trust
+    and confidence are high people behave in ways that contribute to its continuation.\n\nEverything
+    - EVERYTHING - the Treasury Department does and the Fed does is designed to contribute
+    to the illusion that we have a healthy financial system. This accounts for the
+    phony baloney stress tests, fake inflation numbers, imaginary unemployment numbers,
+    and the fact that data on the size of the money supply isn't even published any
+    more. \n\nThe subject of this post, that people make bad monitors in instances
+    of catastrophic failure of the latest technology, is not a new idea. In the opinion
+    of the greatest minds of the time the Titanic was unsinkable. This is why so many
+    lifeboats were half full and why so many perished. Passengers believed it was
+    safer to stay on an unsinkable ship and wait for rescue than it was to be lowered
+    in an open boat at 2 AM into the freezing North Atlantic.\n\nThe idea that people
+    make bad monitors in instances of catastrophic failure of the latest technology
+    is being used today as an excuse for the very predicable impoverishment of the
+    middle class perpetrated by our own government. \n\nFiat money systems always
+    result in debasement and impoverishment. This is because they lack a mechanism
+    to keep money sound. No amount of government oversight can adjust for the lack
+    of this mechanism. \n\nFailure is baked into the system."
+- id: 876
+  author: John Q Murray
+  author_url: ''
+  date: '2012-04-02 20:34:43 +0100'
+  date_gmt: '2012-04-02 19:34:43 +0100'
+  content: "JW Mason: \"if a system cannot be 100% automated, then it may be best
+    to deliberately automate less than is technically possible...\" \n\nBut when a
+    system *can* be 100 percent automated, should it be? I ask because Google is working
+    on autonomous vehicles and we seem to be moving toward such a decision. Machine
+    response times would allow more vehicles to be packed closer together on the existing
+    roadways, allowing more efficient use of space, fuel, transport time, etc., but
+    at the cost of excluding human operators and our significantly slower response
+    times. \n\nWhere we can, should we remove operator error entirely and allow only
+    system error?"
+- id: 877
+  author: Ashwin
+  author_url: ''
+  date: '2012-04-02 23:14:55 +0100'
+  date_gmt: '2012-04-02 22:14:55 +0100'
+  content: Brian - I'm all for simulation of stress scenarios but tend to agree with
+    Les that simulating all the ways in which the system can fail is impossible. And
+    the emergent complexity of most systems means that the ways in which failure arises
+    has multiplied dramatically whereas the intuitive understanding that the human
+    operator possesses has vanished.
+- id: 878
+  author: Paul
+  author_url: ''
+  date: '2012-04-02 23:26:08 +0100'
+  date_gmt: '2012-04-02 22:26:08 +0100'
+  content: It's funny that "war games" was brought up. Remember the movie "WarGames"
+    with Matthew Broderick? I know it was only a movie, but it brings up a similar
+    point as this article. The character played by Dabney Coleman argued that it was
+    necessary to take humans out of the equation when an order is given to launch
+    a nuclear strike on the Soviets because the human will hesitate. It was necessary
+    to fully automate the process. When things were going wrong, the general suggested
+    pulling the plug. But by doing so would cause the missiles to launch automatically,
+    because the system would assume that NORAD was stricken. It also locked out the
+    humans from overriding the system. Sometimes these movies may seem outrageous,
+    but sometimes they have a point.
+- id: 879
+  author: Paul
+  author_url: ''
+  date: '2012-04-02 23:34:48 +0100'
+  date_gmt: '2012-04-02 22:34:48 +0100'
+  content: In line with what John Q Murray said about Google and automating cars,
+    I also remember a documentary on the Wings channel where NASA and other companies
+    are testing concepts where smaller planes can fly by themselves with take-offs
+    and landings included. It is believed that with the latest GPS and anti-collision
+    technologies a small plane can be created where anyone can just hop in, type in
+    a destination, and the plane will do everything on its own. This would supposedly
+    add more destinations to select from since smaller airplanes would be able to
+    land at smaller regional airports. I like the idea, but I think I would pass if
+    asked to get on one of those flights.
+- id: 880
+  author: Adrian Walker
+  author_url: http://www.reengineeringllc.com
+  date: '2012-04-04 01:06:08 +0100'
+  date_gmt: '2012-04-04 00:06:08 +0100'
+  content: |-
+    Paul --
+
+    Remember the joke about completely automated airliners?
+
+    During taxiing, the 'pilot' comes on the PA and annouces "welcome to this entirely automated airline flight, airline flight, airline flight...."
+- id: 881
+  author: Ferro
+  author_url: ''
+  date: '2012-04-04 02:23:59 +0100'
+  date_gmt: '2012-04-04 01:23:59 +0100'
+  content: |-
+    One of the main issues is that people do not use proper learning analyists; they use subject matter experts - the SME then translates his 'beliefs' about training into a system and makes it so - because I say it, it must be true...
+    people die for this reason too.
+- id: 882
+  author: Ashwin
+  author_url: ''
+  date: '2012-04-04 20:27:16 +0100'
+  date_gmt: '2012-04-04 19:27:16 +0100'
+  content: "Paul - I guess outlandish art sometimes hits closer home than reality
+    itself. \n\nOn planes, we're pretty close to the fully-automated state already
+    given that in many planes there is no full-override option possible."
+- id: 883
+  author: Drewster2000
+  author_url: ''
+  date: '2012-04-05 21:52:14 +0100'
+  date_gmt: '2012-04-05 20:52:14 +0100'
+  content: |-
+    Ashwin,
+
+    This is a wonderful stimulating topic.  Thanks for putting it out there.  Putting some of these thoughts together....
+
+    1.
+    JW Mason: If a system cannot be fully automated, then it should be UN-automated to the point that the human operator can detect and deal with the small errors before they begin to build up.
+
+    2.
+    Brian Balke:  Crisis training for the human operators should occur for the well-known and more predictable errors of that system.  I should also point out that once Point 1 is put into place, more of the errors WILL become familiar and not seem so random.  The better you know the beast, more you understand how it's going to react - even in unknown territory.  Not a law but generally holds true.
+
+    3.
+    Andrian Walker:  I believe what he was getting at is that the system has to interact with the operator in "plain english".  So not only do you have to UN-automate the system enough for the operator to control it, but the interface needs to be user-friendly - as much as possible without taking away the need for expertise.  Dumbing things down too much is what started all this.
+
+    4.
+    This approach holds true for many areas:  airplanes, finance, programming, etc.  In finance if analysts had tools that simulated (or even realtimed) nuts-and-bolts operations instead of asking them to fill in 2 fields and click OK, they would learn the feeling of the equivalent of banking, pulling up on the stick, and so on.
+
+    5.
+    If a system can be fully automated, should it?  Careful.  I think we're playing with fire.  I'm not even just talking from a point of self-interest when I say that we need to keep a human being involved and in control.
+- id: 884
+  author: JamesM
+  author_url: ''
+  date: '2012-04-08 19:05:35 +0100'
+  date_gmt: '2012-04-08 18:05:35 +0100'
+  content: "I would respectfully disagree that you can't predict the next crisis.
+    We've got distributed computing systems with petaflops of computing capacity.
+    The weather is complex, and while it will remain impossible to perfectly predict,
+    that doesn't mean we can't simulate all possible outcomes for a given range which
+    is constantly projecting further and further into the future as the tech improves.
+    \n\nThis isn't to say that the simulations account for everything, but the occurrence
+    of unpredicted outcomes should always be falling. \n\nThe point being that you
+    can indeed train for nearly all possible failures, regardless of whether or not
+    they've happened before. \n\nThe analog to this is already happening in many disciplines.
+    Possible, even though never before extant, circumstances are being simulated and
+    analysed in many different systems every day."
+- id: 885
+  author: Hans-Georg Michna
+  author_url: http://blog.michna.com/
+  date: '2012-04-08 20:22:47 +0100'
+  date_gmt: '2012-04-08 19:22:47 +0100'
+  content: |-
+    While a near-fully automated Airbus can lead to problems as in Flight AF447, would any of the alternative proposals lead to fewer fatal accidents overall?
+
+    While such systems create new problems, do they perhaps still solve more problems than they create.
+
+    A simple test would be to determine whether Airbus planes have more fatal accidents than Boeing planes. To my limited knowledge they don't.
+
+    After all, the human brain is highly unreliable and has a very limited intelligence, admittedly higher than that of a contemporary computerized automaton, but still all too easily confused and overwhelmed.
+- id: 886
+  author: Steven Hoober
+  author_url: http://www.donttouchme.com
+  date: '2012-04-08 23:38:04 +0100'
+  date_gmt: '2012-04-08 22:38:04 +0100'
+  content: "The author made one superlative contribution to this discussion, in that
+    he quoted issues in other accidents. \n\nAnyone interested in this topic needs
+    to check the NTSB accident reports page every month or so for new reports: http://www.ntsb.gov/investigations/reports.html
+    WAY too many aircraft (and marine, and pipeline...) accidents are a result of
+    computer systems not working in ways humans understand or expect them to work.\n\nTake
+    your own lesson from that, but do NOT ever think these are so rare they are limited
+    to a once-a-decade incident level like the AF447 discussion would have you believe.
+    Or that it's unique to aviation. Or that the AirBus/Boeing distinction is unique."
+- id: 887
+  author: sabik
+  author_url: http://www.baum.com.au/sabik
+  date: '2012-04-09 13:30:14 +0100'
+  date_gmt: '2012-04-09 12:30:14 +0100'
+  content: |-
+    You may not be able to train for every possible crisis, but you can get thousands of hours of training in crisis management.
+
+    Certainly that helped for Apollo 13 - the astronauts had been trained in simulators with people in the next room flipping switches for simulated failures.
+
+    Benin may not have ever flown a real aircraft in alternate law, and that's OK; but he really should have trained in the simulator in alternate law, and in any other non-standard mode of operation, with at least a bunch of different combinations of failed sensors.
+
+    Training for a range of different crisis situations may not cover all possible emergencies, but it probably will give pilots an intuitive feel for the kind of stupid things the computer will do, and how to recover from them.
+
+    It will also reduce panic and stress, because pilots will be more used to being in crisis mode in a cockpit.
+- id: 888
+  author: John Binns
+  author_url: ''
+  date: '2012-04-09 16:54:20 +0100'
+  date_gmt: '2012-04-09 15:54:20 +0100'
+  content: The movie Wargames was loosely inspired by an actual event. http://en.wikipedia.org/wiki/Stanislav_Petrov
+- id: 889
+  author: Joseph
+  author_url: ''
+  date: '2012-04-09 19:12:26 +0100'
+  date_gmt: '2012-04-09 18:12:26 +0100'
+  content: Their are problems with this essay regarding AF 447 in that it is a snapshot
+    in time... and one that is effectively quite "old". Current FBW systems and commercial
+    aircraft avionics are "old" in the sense that from development through certification
+    it takes up to a decade (or more) and they are installed on mainly "legacy" aircraft
+    designs and systems (such as the A330). One only has to look at the brand new
+    787. It started life as the 7E7 almost decade  ago. Now just look at cell phone
+    tech progress in the past decade. The 787 is "old" in comparison. With information
+    technology growing at exponential rates (65,500 times more powerful by the end
+    of the decade), HMI will not be an issue in the next (true) generation of commercial
+    aircraft.
+- id: 890
+  author: Jim Gorski
+  author_url: http://www.jimgorski.com
+  date: '2012-04-09 21:27:00 +0100'
+  date_gmt: '2012-04-09 20:27:00 +0100'
+  content: |-
+    The problem is that the time recovered by automation is NOT spent training staff to react well in a crisis.  Instead the extra time appears to be a surplus of staff and layoffs take place.
+    When layoffs take place the expert employees leave to find a more stable company and the offending company now has fewer experts and even less capable crisis management.
+    I stopped flying when I heard the airline industry described as "70's technology maintained for forty years by the lowest bidder".
+    Great post.
+- id: 891
+  author: Joseph
+  author_url: ''
+  date: '2012-04-10 01:20:05 +0100'
+  date_gmt: '2012-04-10 00:20:05 +0100'
+  content: |-
+    "The problem is that the time recovered by automation is NOT spent training staff to react well in a crisis."
+
+    Unfortunately, similar to the Colgan 3407 crash the pilots failed in some pretty fundamental piloting skills that cannot be blamed on technology/automation.
+- id: 892
+  author: Ashwin
+  author_url: ''
+  date: '2012-04-10 14:03:46 +0100'
+  date_gmt: '2012-04-10 13:03:46 +0100'
+  content: "JamesM - I don't deny that the occurrence of unpredicted outcomes may
+    fall but the increased magnitude of the event when an \"unknown unknown\" occurs
+    can more than make up for this. Airplanes probably aren't the best example in
+    that the magnitude of the event is somewhat bounded. But this is certainly not
+    the case in many other domains, financial model error for example. \n\nHans-Georg
+    Michna - apart from the increased magnitude of the event, my point is that the
+    progressive automation itself deskills to such an extent that the human seems
+    increasingly like a poor alternative to the computer. This makes the process almost
+    impossible to reverse - if you suddenly went back to the more tool-like system
+    with a deskilled operator, system performance will be much worse (even if it could
+    be better with an expert operator). \n\nSteven - Thanks for the link. Yes - there
+    are many other examples. Just to take a couple, the Therac-25 incident http://en.wikipedia.org/wiki/Therac-25
+    and the 2003 Northeast blackout http://en.wikipedia.org/wiki/2003_North_America_blackout
+    - examples of the 'defence in depth' problem, race conditions http://en.wikipedia.org/wiki/Race_condition
+    etc.\n\nsabik - I'm not denying that stress scenario testing and training helps.
+    But I find it hard to believe that it could have made up for the counter-intuitive
+    feedback that the alarm systems were giving the pilots in this case. My point
+    is also that developing intuition for these non-tool-like complex systems is a
+    very hard task. \n\nJohn Binns - Thanks. I did not know about Stanislav Petrov
+    - scary. \n\nJoseph - no denying that the automated systems may get better. But
+    the human component which is increasingly relegated to crisis-management gets
+    worse. It is not clear that the combined system performance will get better. \n\nJim
+    Gorski - again I'm sure that more training cannot hurt. But the evidence from
+    the work of researchers such as James Reason is that training for crises is of
+    limited use when the \"normal\" state of operations consists of the human simply
+    observing the system and leaving it alone."
+- id: 893
+  author: sabik
+  author_url: http://www.baum.com.au/sabik
+  date: '2012-04-10 14:23:48 +0100'
+  date_gmt: '2012-04-10 13:23:48 +0100'
+  content: BTW, re Stanislav Petrov, apparently there were a couple of similar incidents
+    at NORAD, too, including one which involved test data going into the live system
+    — perhaps relevant here with the discussion of training and simulation...
+- id: 894
+  author: Hans-Georg Michna
+  author_url: http://blog.michna.com/
+  date: '2012-04-10 14:47:25 +0100'
+  date_gmt: '2012-04-10 13:47:25 +0100'
+  content: |-
+    First of all, I agree very much with your article and think your analysis is perfectly on the spot.
+
+    Nonetheless I predict that the trend will go towards more automation and later perhaps towards artificial intelligence, whether we like it and whether it is the objectively best way or not. There are several reasons why the trend will go that way, even against better knowledge. Sadly, we will see more accidents caused by humans misreading failure modes in an automated system. At some point in the future AI will be safer than any human, but until then I am not optimistic.
+
+    I still think that the designers of highly automated systems will design them better after reading this article and discussion, so let's keep it up.
+
+    Here is a proposal for airliners: Have exactly two modes of operation---automatic and manual. In the manual mode automation should be minimized. The two modes should be clearly distinguishable, for example by cockpit lighting color.
+
+    Pilots should regularly be subjected to extensive simulator sessions, in which they are trained to steer a defective aeroplane in manual mode.
+
+    To the best of my knowledge most airlines in the US already do this to some extent. They have the requirement for regular simulator sessions, during which pilots are trained for a variety of failures.
+
+    One could also argue about whether or not pilots should be allowed to use manual mode during regular operation with passengers.
+
+    Similar proposals could be made for other highly automated systems.
+- id: 895
+  author: Joseph
+  author_url: ''
+  date: '2012-04-10 15:52:11 +0100'
+  date_gmt: '2012-04-10 14:52:11 +0100'
+  content: "\"No denying that the automated systems may get better.\"\n\nIn aerospace
+    we know that automated systems will get better. As has already been pointed out,
+    it was the absence of fundamental piloting skills that  ultimately led to the
+    demise of AF447... not automation.\n\n\"But the human component which is increasingly
+    relegated to crisis-management gets worse. It is not clear that the combined system
+    performance will get better.\"\n\nIf that was true we would have many more airliners
+    falling out of the sky. \n\nUnfortunately, you are trying to mold AF447 to fit
+    your point of view... which certainly may be valid in other areas but doesn't
+    apply to AF447."
+- id: 896
+  author: Rounded Corners 352 – Epic pull requests /by @assaf
+  author_url: http://labnotes.org/2012/04/10/rounded-corners-352-epic-pull-requests/
+  date: '2012-04-10 15:52:58 +0100'
+  date_gmt: '2012-04-10 14:52:58 +0100'
+  content: "[...] Why People Make Poor Monitors for Computers. How automated systems
+    hurt people&#8217;s ability to deal with emergencies, and the fallacy [...]"
+- id: 897
+  author: Ashwin
+  author_url: ''
+  date: '2012-04-10 16:20:30 +0100'
+  date_gmt: '2012-04-10 15:20:30 +0100'
+  content: "sabik - Thanks. I guess its a good thing the cold war ended before we
+    got the drones! \n\nHans-Georg Michna - I agree that the trend is probably irreversible.
+    But in some domains, the interim deterioration (the uncanny valley) may cause
+    systemic collapse. \nThe implicit error that many of these systems commit is to
+    integrate human operators and automated systems in a manner that assumes that
+    the human mind works like a computer. \n\nJoseph - while I don't share your view
+    that the errors that led to AF447 were so easily identifiable ex-ante, total system
+    performance will likely not fall off a cliff in domains such as air travel where
+    the worst case is bounded and complexity is still lower than in social systems.
+    But this is a statement about the impact, not the dynamic which still holds."
+- id: 898
+  author: Joseph
+  author_url: ''
+  date: '2012-04-10 20:00:27 +0100'
+  date_gmt: '2012-04-10 19:00:27 +0100'
+  content: |-
+    "while I don’t share your view that the errors that led to AF447 were so easily identifiable ex-ante"
+
+    The facts are that they have been identified. Losing airspeed data is nothing new. The pilots failed in not "aviating" in a pretty basic "partial panel" failure.
+
+    "total system performance will likely not fall off a cliff in domains such as air travel where the worst case is bounded and complexity is still lower than in social systems."
+
+    From the start I said that using AF447 as an example "about the impact" was problematic. The physics of flight is rational, humans are much less so.
+- id: 899
+  author: People make crappy operators &laquo; The Downcomer
+  author_url: http://downcomer.wordpress.com/2012/04/10/people-make-crappy-operators/
+  date: '2012-04-10 22:44:25 +0100'
+  date_gmt: '2012-04-10 21:44:25 +0100'
+  content: "[...] This is mostly in the context of aviation and then later finance,
+    but since I am finishing up a course on process control it struck a chord: most
+    operator errors arise from a mismatch between the properties of the system as
+    a whole and the characteristics of human information processing. System designers
+    have unwittingly created a work situation in which many of the normally adaptive
+    characteristics of human cognition (its natural heuristics and biases) are transformed
+    into dangerous liabilities. [...]"
+- id: 900
+  author: Cheaper, Better, Faster&#8230; and Riskier? | Futures Group
+  author_url: http://www.futures-group.net/content/business-disrupted/cb-and-riskier/
+  date: '2012-05-03 06:28:46 +0100'
+  date_gmt: '2012-05-03 05:28:46 +0100'
+  content: "[...] just the financial sector. The blog Macroeconomic Resilience examines
+    this in some detail in the post People Make Poor Monitors for Computers, and concludes
+    that even an automated &#8220;defence in [...]"
+- id: 901
+  author: 'Models of Patient Safety : HEALTH REFORM WATCH'
+  author_url: http://www.healthreformwatch.com/2012/05/03/models-of-patient-safety/
+  date: '2012-05-04 02:59:39 +0100'
+  date_gmt: '2012-05-04 01:59:39 +0100'
+  content: "[...] the aviation model has its critics. The very thoughtful finance
+    blogger Ashwin Parameswaran argues that, &#8220;by protecting system performance
+    against single faults, redundancies allow the latent [...]"
+- id: 902
+  author: Deskilling and The Cul-de-Sac of Near Perfect Automation at Macroeconomic
+    Resilience
+  author_url: https://www.macroresilience.com/2013/05/09/deskilling-and-the-cul-de-sac-of-near-perfect-automation/
+  date: '2013-05-09 17:35:42 +0100'
+  date_gmt: '2013-05-09 16:35:42 +0100'
+  content: "[...] of the core ideas in my essay &#8216;People Make Poor Monitors For
+    Computers&#8217; was the deskilling of human operators whose sole responsibility
+    is to monitor automated systems. [...]"
+- id: 903
+  author: kiers
+  author_url: ''
+  date: '2013-05-11 16:16:44 +0100'
+  date_gmt: '2013-05-11 15:16:44 +0100'
+  content: "Bhide writes....\"that a significant causal agent in the financial crisis
+    was the replacement of discretion with models in many areas of finance\". \n\nNOT.
+    \"THE\" significant causal agent of the financial crisis was excess MONEY created
+    by the FED.\n\nWhen banks have MORE money than they know what to do with, CEOs
+    can be pursuaded to let all manner of math do the talking. Pure and Simple. The
+    money supply is not a constant."
+- id: 904
+  author: The Toolkit | IntellectualToolkit
+  author_url: http://rjthefirst.wordpress.com/2014/09/18/the-toolkit/
+  date: '2014-09-18 16:55:18 +0100'
+  date_gmt: '2014-09-18 15:55:18 +0100'
+  content: "[...] The Fallacy of Defense in Depth. When multiple layers of defense
+    are present, single errors can accumulate in each and not be detected by human
+    monitors.  Eventually, errors coincide to cause an accident, and due to the nature
+    of the defenses, the accident has multiple causes which are difficult to untangle. 
+    Especially in an emergency situation.  https://www.macroresilience.com/2011/12/29/people-make-poor-monitors-for-computers/
+    [...]"
+---
+<p>In the early hours of June 1st 2009, Air France Flight 447 crashed into the Atlantic Ocean. Till the black boxes of AF447 were recovered in April 2011, the exact circumstances of the crash remained a mystery. The most widely accepted explanation for the disaster attributes a large part of the blame to human error when faced with a partial but not fatal systems failure. Yet a small but vocal faction blames the disaster and others like it on the increasingly automated nature of modern passenger airplanes.</p>
+<p>This debate bears an uncanny resemblance to a similar debate as to the causes of the financial crisis - many commentators blame the persistently irrational nature of human judgement for the recurrence of financial crises. Others such as <a href="http://www.amazon.com/gp/product/0199756074/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0199756074">Amar Bhide</a> blame the unwise deference to imperfect financial models over human judgement. In my opinion, both perspectives miss the true dynamic. These disasters are not driven by human error or systems error alone but by fatal flaws in the interaction between human intelligence and complex, near fully-automated systems.</p>
+<p>In a recent article drawing upon the black box transcripts, Jeff Wise <a href="http://www.popularmechanics.com/technology/aviation/crashes/what-really-happened-aboard-air-france-447-6611877">attributes</a> the crash primarily to a <em>“simple but persistent mistake on the part of one of the pilots”</em>. According to Wise, the co-pilot reacted to the persistent stall warning by <em>“pulling back on the stick, the exact opposite of what he must do to recover from the stall”</em>.</p>
+<p>But there are many hints that the story is nowhere near as simple. As Peter Garrison <a href="http://www.flyingmag.com/technique/accidents/technicalities-closer-look-what-happened-air-france-447?page=0,0">notes</a> :</p>
+<blockquote><p>every pilot knows that to recover from a stall you must get the nose down. But because a fully developed stall in a large transport is considered highly unlikely, and because in IFR air traffic vertical separation, and therefore control of altitude, is important, transport pilots have not been trained to put the nose down when they hear the stall warning — which heralds, after all, not a fully developed stall, but merely an approaching one. Instead, they have been trained to increase power and to “fly out of the stall” without losing altitude. Perhaps that is what the pilot flying AF447 intended. But the airplane was already too deeply stalled, and at too high an altitude, to recover with power alone.</p></blockquote>
+<p>The patterns of the AF447 disaster are not unique. As Chris Sorensen <a href="http://www2.macleans.ca/2011/08/24/cockpit-crisis/">observes</a>, over 50 commercial aircrafts have crashed in “loss-of-control” accidents in the last five years, a trend for which there is no shortage of explanations:</p>
+<blockquote><p>Some argue that the sheer complexity of modern flight systems, though designed to improve safety and reliability, can overwhelm even the most experienced pilots when something actually goes wrong. Others say an increasing reliance on automated flight may be dulling pilots’ sense of flying a plane, leaving them ill-equipped to take over in an emergency. Still others question whether pilot-training programs have lagged behind the industry’s rapid technological advances.</p></blockquote>
+<p>But simply invoking terms such as “automation addiction” or blaming disasters on irrational behaviour during times of intense stress does not get at the crux of the issue.</p>
+<h3 id="peoplemakepoormonitorsforcomputers"><strong>People Make Poor Monitors for Computers</strong></h3>
+<p>Airplane automation systems are not the first to discover the truth in the <a href="http://www.smh.com.au/travel/travel-incidents/air-france-crash-spotlights-pilots-reliance-on-computers-20110527-1f79b.html">comment</a> made by David Jenkins that “computers make great monitors for people, but people make poor monitors for computers.” As James Reason observes in his seminal book <a href="http://www.amazon.com/gp/product/0521314194/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0521314194">‘Human Error’</a>:</p>
+<blockquote><p>We have thus traced a progression from where the human is the prime mover and the computer the slave to one in which the roles are very largely reversed. For most of the time, the operator’s task is reduced to that of monitoring the system to ensure that it continues to function within normal limits. The advantages of such a system are obvious; the operator’s workload is substantially reduced, and the [system] performs tasks that the human can specify but cannot actually do. However, the main reason for the human operator’s continued presence is to use his still unique powers of knowledge-based reasoning to cope with system emergencies. And this is a task peculiarly ill-suited to the particular strengths and weaknesses of human cognition…..</p>
+<p>most operator errors arise from a mismatch between the properties of the system as a whole and the characteristics of human information processing. <strong>System designers have unwittingly created a work situation in which many of the normally adaptive characteristics of human cognition (its natural heuristics and biases) are transformed into dangerous liabilities.</strong></p></blockquote>
+<p>As Jeff Wise <a href="http://www.popularmechanics.com/technology/aviation/crashes/what-really-happened-aboard-air-france-447-6611877">notes</a>, it is impossible to stall an Airbus in most conditions. AF447 however went into a state known as ‘alternate law’ which most pilots have never experienced where the airplane could be stalled:</p>
+<blockquote><p>“You can’t stall the airplane in normal law,” says Godfrey Camilleri, a flight instructor who teaches Airbus 330 systems to US Airways pilots….But once the computer lost its airspeed data, it disconnected the autopilot and switched from normal law to “alternate law,” a regime with far fewer restrictions on what a pilot can do. “Once you’re in alternate law, you can stall the airplane,” Camilleri says….<strong>It’s quite possible that Bonin had never flown an airplane in alternate law, or understood its lack of restrictions. According to Camilleri, not one of US Airway’s 17 Airbus 330s has ever been in alternate law.</strong> Therefore, Bonin may have assumed that the stall warning was spurious because he didn’t realize that the plane could remove its own restrictions against stalling and, indeed, had done so.</p></blockquote>
+<p>This inability of the human operator to fill in the gaps in a near-fully automated system was identified by Lisanne Bainbridge as one of the ironies of automation which James Reason <a href="http://www.amazon.com/gp/product/0521314194/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0521314194">summarised</a>:</p>
+<blockquote><p>the same designer who seeks to eliminate human beings still leaves the operator “to do the tasks which the designer cannot think how to automate” (Bainbridge,1987, p.272). In an automated plant, operators are required to monitor that the automatic system is functioning properly. But it is well known that even highly motivated operators cannot maintain effective vigilance for anything more than quite short periods; thus, they are demonstrably ill-suited to carry out this residual task of monitoring for rare, abnormal events. In order to aid them, designers need to provide automatic alarm signals. But who decides when these automatic alarms have failed or been switched off?</p></blockquote>
+<p>As Robert Charette <a href="http://m.spectrum.ieee.org/computing/software/automated-to-death/0">notes</a>, the same is true for airplane automation:</p>
+<blockquote><p>operators are increasingly left out of the loop, at least until something unexpected happens. Then the operators need to get involved quickly and flawlessly, says Raja Parasuraman, professor of psychology at George Mason University in Fairfax, Va., who has been studying the issue of increasingly reliable automation and how that affects human performance, and therefore overall system performance. ”There will always be a set of circumstances that was not expected, that the automation either was not designed to handle or other things that just cannot be predicted,” explains Parasuraman. So <strong>as system reliability approaches—but doesn’t quite reach—100 percent, ”the more difficult it is to detect the error and recover from it,</strong>” he says…..In many ways, operators are being asked to be omniscient systems administrators who are able to jump into the middle of a situation that a complex automated system can’t or wasn’t designed to handle, quickly diagnose the problem, and then find a satisfactory and safe solution.</p></blockquote>
+<h3 id="storedroutinesarenoteffectiveinraresituations"><strong>Stored Routines Are Not Effective in Rare Situations</strong></h3>
+<p>As James Reason <a href="http://www.amazon.com/gp/product/0521314194/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0521314194">puts it</a>:</p>
+<blockquote><p>the main reason why humans are retained in systems that are primarily controlled by intelligent computers is to handle ‘non-design’ emergencies. In short, operators are there because system designers cannot foresee all possible scenarios of failure and hence are not able to provide automatic safety devices for every contingency. In addition to their cosmetic value, human beings owe their inclusion in hazardous systems to their unique, knowledge-based ability to carry out ‘on-line’ problem solving in novel situations. Ironically, and notwithstanding the Apollo 13 astronauts and others demonstrating inspired improvisation, they are not especially good at it; at least not in the conditions that usually prevail during systems emergencies. One reason for this is that stressed human beings are strongly disposed to employ the effortless, parallel, preprogrammed operations of highly specialised, low-level processors and their associated heuristics. These stored routines are shaped by personal history and reflect the recurring patterns of past experience……</p>
+<p>Why do we have operators in complex systems? To cope with emergencies. What will they actually use to deal with these problems? Stored routines based on previous interactions with a specific environment. What, for the most part, is their experience within the control room? Monitoring and occasionally tweaking the plant while it performs within safe operating limits. So how can they perform adequately when they are called upon to reenter the control loop? The evidence is that this task has become so alien and the system so complex that, on a significant number of occasions, they perform badly.</p></blockquote>
+<p>Wise again identifies this problem in the case of AF447:</p>
+<blockquote><p>While Bonin’s behavior is irrational, it is not inexplicable. Intense psychological stress tends to shut down the part of the brain responsible for innovative, creative thought. Instead, we tend to revert to the familiar and the well-rehearsed. Though pilots are required to practice hand-flying their aircraft during all phases of flight as part of recurrent training, in their daily routine they do most of their hand-flying at low altitude—while taking off, landing, and maneuvering. It’s not surprising, then, that amid the frightening disorientation of the thunderstorm, Bonin reverted to flying the plane as if it had been close to the ground, even though this response was totally ill-suited to the situation.</p></blockquote>
+<h3 id="deskillingfromautomation"><strong>Deskilling From Automation</strong></h3>
+<p>As James Reason <a href="http://www.amazon.com/gp/product/0521314194/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0521314194">observes</a>:</p>
+<blockquote><p>Manual control is a highly skilled activity, and skills need to be practised continuously in order to maintain them. Yet an automatic control system that fails only rarely denies operators the opportunity for practising these basic control skills. One of the consequences of automation, therefore, is that operators become de-skilled in precisely those activities that justify their marginalised existence. But when manual takeover is necessary something has usually gone wrong; this means that operators need to be more rather than less skilled in order to cope with these atypical conditions. Duncan (1987, p. 266) makes the same point: <strong>“The more reliable the plant, the less opportunity there will be for the operator to practise direct intervention, and the more difficult will be the demands of the remaining tasks requiring operator intervention</strong>.”</p></blockquote>
+<h3 id="opacityandtoomuchinformationofuncertainreliability"><strong>Opacity and Too Much Information of Uncertain Reliability</strong></h3>
+<p>Wise captures this problem and its interaction with a human who has very little experience in managing the crisis scenario:</p>
+<blockquote><p>Over the decades, airliners have been built with increasingly automated flight-control functions. These have the potential to remove a great deal of uncertainty and danger from aviation. But they also remove important information from the attention of the flight crew. While the airplane’s avionics track crucial parameters such as location, speed, and heading, the human beings can pay attention to something else. But when trouble suddenly springs up and the computer decides that it can no longer cope—on a dark night, perhaps, in turbulence, far from land—the humans might find themselves with a very incomplete notion of what’s going on. They’ll wonder: What instruments are reliable, and which can’t be trusted? What’s the most pressing threat? What’s going on? Unfortunately, the vast majority of pilots will have little experience in finding the answers.</p></blockquote>
+<p>A similar scenario <a href="http://www2.macleans.ca/2011/08/24/cockpit-crisis/">occurred</a> in the case of the Qantas-owned A380 which took off from Singapore in November 2010:</p>
+<blockquote><p>Shortly after takeoff from Singapore, one of the hulking A380’s four engines exploded and sent pieces of the engine cowling raining down on an Indonesian island.<strong> The blast also damaged several of the A380’s key systems, causing the unsuspecting flight crew to be bombarded with no less than 54 different warnings and error messages</strong>—so many that co-pilot Matt Hicks later said that, at one point, he held his thumb over a button that muted the cascade of audible alarms, which threatened to distract Capt. Richard De Crespigny and the rest of the feverishly working flight crew. Luckily for passengers, Qantas Flight 32 had an extra two pilots in the cockpit as part of a training exercise, all of whom pitched in to complete the nearly 60 checklists required to troubleshoot the various systems. The wounded plane limped back to Singapore Changi Airport, where it made an emergency landing.</p></blockquote>
+<p>Again James Reason <a href="http://www.amazon.com/gp/product/0521314194/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0521314194">captures</a> the essence of the problem:</p>
+<blockquote><p>One of the consequences of the developments outlined above is that complex, tightly-coupled and highly defended systems have become increasingly opaque to the people who manage, maintain and operate them. This opacity has two aspects: not knowing what is happening and not understanding what the system can do. As we have seen, automation has wrought a fundamental change in the roles people play within certain high-risk technologies. Instead of having ‘hands on’ contact with the process, people have been promoted “to higher-level supervisory tasks and to long-term maintenance and planning tasks” (Rasmussen, 1988). In all cases, these are far removed from the immediate processing. What direct information they have is filtered through the computer-based interface. And, as many accidents have demonstrated, they often cannot find what they need to know while, at the same time, being deluged with information they do not want nor know how to interpret.</p></blockquote>
+<h3 id="absenceofintuitivefeedback"><strong>Absence of Intuitive Feedback</strong></h3>
+<p>Among others, Hubert and Stuart Dreyfus have <a href="http://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition">shown</a> that <strong>human expertise relies on an intuitive and tacit understanding of the situation rather than a rule-bound and algorithmic understanding. The development of intuitive expertise depends upon the availability of clear and intuitive feedback which complex, automated systems are often unable to provide.</strong></p>
+<p>In AF447, when the co-pilot did push forward on the stick (the “correct” response), the behaviour of the stall warning was exactly the opposite of what he would have intuitively <a href="http://www.flyingmag.com/technique/accidents/technicalities-closer-look-what-happened-air-france-447?page=0,0">expected</a>:</p>
+<blockquote><p>At one point the pilot briefly pushed the stick forward. Then, in a grotesque miscue unforeseen by the designers of the fly-by-wire software, the stall warning, which had been silenced, as designed, by very low indicated airspeed, came to life. The pilot, probably inferring that whatever he had just done must have been wrong, returned the stick to its climb position and kept it there for the remainder of the flight.</p></blockquote>
+<p>Absence of feedback prevents effective learning but the wrong feedback can have catastrophic consequences.</p>
+<h3 id="thefallacyofdefenceindepth"><strong>The Fallacy of Defence in Depth</strong></h3>
+<p>In complex automated systems, the redundancies and safeguards built into the system also contribute to its opacity. <strong>By protecting system performance against single faults, redundancies allow the latent buildup of multiple faults.</strong> Jens Rasmussen called this ‘the fallacy of defence in depth’ which James Reason <a href="http://www.amazon.com/gp/product/0521314194/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0521314194">elaborates</a> upon:</p>
+<blockquote><p>the system very often does not respond actively to single faults. Consequently, many errors and faults made by the staff and maintenance personnel do not directly reveal themselves by functional response from the system. Humans can operate with an extremely high level of reliability in a dynamic environment when slips and mistakes have immediately visible effects and can be corrected……Violation of safety preconditions during work on the system will probably not result in an immediate functional response, and latent effects of erroneous acts can therefore be left in the system. When such errors are allowed to be present in a system over a longer period of time, the probability of coincidence of the multiple faults necessary for release of an accident is drastically increased. Analyses of major accidents typically show that the basic safety of the system has eroded due to latent errors.</p></blockquote>
+<p>This is exactly what <a href="http://m.spectrum.ieee.org/computing/software/automated-to-death/0">occurred</a> on Malaysia Airlines Flight 124 in August 2005:</p>
+<blockquote><p>The fault-tolerant ADIRU was designed to operate with a failed accelerometer (it has six). The redundant design of the ADIRU also meant that it wasn’t mandatory to replace the unit when an accelerometer failed. However, when the second accelerometer failed, a latent software anomaly allowed inputs from the first faulty accelerometer to be used, resulting in the erroneous feed of acceleration information into the flight control systems. The anomaly, which lay hidden for a decade, wasn’t found in testing because the ADIRU’s designers had never considered that such an event might occur.</p></blockquote>
+<p>Again, defence-in-depth systems are uniquely unsuited to human expertise as Gary Klein <a href="http://www.amazon.com/gp/product/0262611465/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0262611465">notes</a>:</p>
+<blockquote><p>In a massively defended system, if an accident sneaks through all the defenses, the operators will find it far more difficult to diagnose and correct it. That is because they must deal with all of the defenses, along with the accident itself…..<strong>A unit designed to reduce small errors helped to create a large one.</strong></p></blockquote>
+<h3 id="twoapproachestoairplaneautomation:airbusandboeing"><strong>Two Approaches to Airplane Automation: Airbus and Boeing</strong></h3>
+<p>Although both Airbus and Boeing have adopted the <a href="http://en.wikipedia.org/wiki/Fly-by-wire">fly-by-wire</a> technology, there are fundamental differences in their respective approaches. Whereas Boeing’s system enforces soft limits that can be overridden at the discretion of the pilot, Airbus’ fly-by-wire system has built-in hard limits that cannot be overridden completely at the pilot’s discretion.</p>
+<p>As Simon Calder <a href="http://www.independent.co.uk/opinion/commentators/simon-calder-airbus-stands-by-its-flybywire-but-how-safe-is-it-1701111.html">notes</a>, pilots have raised concerns in the past about Airbus‘ systems being <em>“overly sophisticated”</em> as opposed to Boeing’s <em>“rudimentary but robust”</em> system. But this does not imply that the Airbus approach is inferior. It is instructive to analyse Airbus’ <a href="http://www.aviationtoday.com/av/issue/columns/13015.html">response</a> to pilot demands for a manual override switch that allows the pilot to take complete control:</p>
+<blockquote><p>If we have a button, then the pilot has to be trained on how to use the button, and there are no supporting data on which to base procedures or training…..The hard control limits in the Airbus design provide a consistent “feel” for the aircraft, from the 120-passenger A319 to the 350-passenger A340. That consistency itself builds proficiency and confidence……You don’t need engineering test pilot skills to fly this airplane.</p></blockquote>
+<p>David Evans captures the essence of this philosophy as aimed at minimising the <em>“potential for human error, to keep average pilots within the limits of their average training and skills”</em>.</p>
+<p>It is easy to criticise Airbus‘ approach but the hard constraints clearly demand less from the pilot. In the hands of an expert pilot, Boeing’s system may outperform. But if the pilot is a novice, Airbus’ system almost certainly delivers superior results. Moreover, as I discussed earlier in the post, the transition to an almost fully automated system by itself reduces the probability that the human operator can achieve intuitive expertise. In other words, the transition to near-autonomous systems creates a pool of human operators that appear to frequently commit “irrational” errors and is therefore almost impossible to reverse.</p>
+<p style="text-align: center;"> *          *         *</p>
+<h3 id="peoplemakepoormonitorsforsomefinancialmodels"><strong>People Make Poor Monitors for Some Financial Models</strong></h3>
+<p>In earlier <a href="/2010/08/23/amar-bhide-on-robotic-finance/">post</a>, I analysed Amar Bhide’s argument that a significant causal agent in the financial crisis was the replacement of discretion with models in many areas of finance - for example, banks’ mortgage lending decisions. In his excellent book, <a href="http://www.amazon.com/gp/product/0199756074/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0199756074">‘A Call for Judgement’</a>, he expands on this argument and amongst other technologies, lays some of the blame for this over-mechanisation of finance on the ubiquitous Black-Scholes-Merton (BSM) formula. Although I agree with much of his book, this thesis is too simplistic.</p>
+<p>There is no doubt that BSM has many limitations - amongst the most severe being the assumption of continuous asset price movements, a known and flat volatility surface, and an asset price distribution free of fat tails. But the systemic impact of all these limitations is grossly overstated:</p>
+<ul>
+<li>BSM and similar models have never been used as “valuation” methods on a large scale in derivatives markets but as a tool which tries to back out an implied volatility and generate useful hedge ratios by taking market prices for options as a given. In other words, volatility plays the role of the “wrong number in the wrong formula to get the right price”.</li>
+<li>When “simple” BSM-like models are used to price more exotic derivatives, they have a modest role to play. As Emanuel Derman <a href="http://finmath.stanford.edu/seminars/documents/Stanford.Smile.Derman.pdf">puts it</a>, practitioners use models as <em>“interpolating formulas that take you from known prices of liquid securities to the unknown values of illiquid securities”</em>.</li>
+</ul>
+<p>Nevertheless, this does not imply that financial modelling choices have no role to play in determining system resilience. But the role was more subtle and had to do less with the imperfections of the models themselves as with the imperfections of how complex models used to price complex products could be used by human traders.</p>
+<p>Since the discovery of the <a href="http://en.wikipedia.org/wiki/Volatility_smile">volatility smile</a>, traders have known that the interpolation process to price exotic options requires something more than a simple BSM model. One would assume that traders would want to use a model that was accurate and comprehensive as possible. But this has rarely been the case. Supposedly inferior <a href="http://en.wikipedia.org/wiki/Local_volatility">local volatility</a> models still flourish and even in some of the most complex domains of exotic derivatives, models are still chosen based on their intuitive similarities to a BSM-like approach where the free parameters can be thought of as volatility or correlation e.g. The <a href="http://www-rocq.inria.fr/mathfi/LMM-09.01.2007.ppt">Libor Market Model</a>.</p>
+<p>The choice of intuitive understanding over model accuracy is not unwarranted. As all market practitioners know, there is no such thing as a perfect derivatives pricing model. Paul Wilmott hit the nail on the head when he <a href="http://www.wilmott.com/blogs/paul/index.cfm/2008/4/29/Science-in-Finance-IX-In-defence-of-Black-Scholes-and-Merton">observed</a> that *“the many improvements on Black-Scholes are rarely improvements, the best that can be said for many of them is that they are just better at hiding their faults. Black-Scholes also has its faults, but at least you can see them”.</p>
+<p>However, <strong>as markets have evolved, maintaining this balance between intuitive understanding and accuracy has become increasingly difficult</strong>:</p>
+<ul>
+<li>Intuitive yet imperfect models require experienced and expert traders. Scaling up trading volumes of exotic derivatives however requires that pricing and trading systems be pushed out to novice traders as well as non-specialists such as salespeople.</li>
+<li>With the increased complexity of derivative products, preserving an intuitive yet sufficiently accurate model becomes an almost impossible task.</li>
+<li>Product complexity combined with the inevitable discretion available to traders when they use simpler models presents significant control challenges and an increased potential for fraud.</li>
+</ul>
+<p>In this manner, <strong>the same paradoxical evolution that have been observed in nuclear plants and airplane automation is now being experienced in finance.</strong> The need to scale up and accommodate complex products necessitates the introduction of complex, unintuitive models in combination with which human intuitive expertise is unable to add any value. In such a system, a novice is often as good as a more experienced operator. The ability of these models to tackle most scenarios on ‘auto-pilot’ results in a deskilled and novice-heavy human component in the system which is ill-equipped to tackle the inevitable occasion when the model fails. The failure is inevitably taken as evidence of human failure upon which the system is made even more automated and more safeguards and redundancies are built into the system. This exacerbates the problem of absence of feedback when small errors occur. The buildup of latent errors again increases and failures become even more catastrophic.</p>
+<p style="text-align: center;"><span style="text-align: center;"> *          *         *</span></p>
+<p>My focus on airplane automation and financial models is simply illustrative. There are ample signs of this incompatibility between human monitors and near-fully automated systems in other domains as well. For example, Andrew Hill <a href="http://www.ft.com/cms/s/0/b869b93c-c1da-11e0-bc71-00144feabdc0.html">observes</a>:</p>
+<blockquote><p>In developed economies, Lynda Gratton writes in her new book The Shift, “when the tasks are more complex and require innovation or problem solving, substitution [by machines or computers] has not taken place”. This creates a paradox: far from making manufacturers easier to manage, automation can make managers’ jobs more complicated. As companies assign more tasks to machines, they need people who are better at overseeing the more sophisticated workforce and doing the jobs that machines cannot….</p>
+<p>The insight that greater process efficiency adds to the pressure on managers is not new. Even Frederick Winslow Taylor – these days more often caricatured as a dinosaur for his time-and-motion studies – pointed out in his century-old The Principles of Scientific Management that imposing a more mechanistic regime on workers would oblige managers to take on “other types of duties which involve new and heavy burdens”…..</p>
+<p>There is no doubt Foxconn and its peers will be able to automate their labour-intensive processes. They are already doing so. The big question is how easily they will find and develop managers able to oversee the highly skilled workforce that will march with their robot armies.</p></blockquote>
+<p>This process of integrating human intelligence with artificial intelligence is simply a continuation of the process through which human beings went from being tool-users to minders and managers of automated systems. The current transition is important in that for the first time, many of these algorithmic and automated systems can essentially run themselves with human beings performing the role of supervisors who only need to intervene in extraordinary circumstances. <strong>Although it seems logical that the same process of increased productivity that has occurred during the modern <a href="http://www.amazon.com/gp/product/0674169867/ref=as_li_ss_tl?ie=UTF8&amp;tag=httpwwwmacror-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0674169867">‘Control Revolution’</a> will continue during the creation of the <em>“vast,automatic and invisible”</em> <a href="https://www.mckinseyquarterly.com/The_second_economy_2853">‘second economy’</a>, the incompability of human cognition with near-fully automated systems suggests that it may only do so by taking on an increased risk of rare but catastrophic failure.</strong></p>
